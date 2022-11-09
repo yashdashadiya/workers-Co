@@ -1,0 +1,18 @@
+.imgstyle{
+    display: flex;
+    
+    flex-direction: column;
+    width: 130px;
+    text-align: center;
+    margin: 30px;
+    cursor: pointer;
+}
+.imgstyle span{
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(92, 78, 163);
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
